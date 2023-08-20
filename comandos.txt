@@ -1,0 +1,110 @@
+1002  cd Documents
+ 1003  ls
+ 1004  cd Digital\ House
+ 1005  ls
+ 1006  cd Intro\ Informatica
+ 1007  ls
+ 1008  cd 20AgoJorgeAlbertoCanales
+ 1009  git init
+ 1010  git remote add origin https://github.com/Ing-Jorge-Alberto/20AgoJorgeAlbertoCanales.git
+ 1011  git remote -v
+ 1012  touch main.js
+ 1013  touch index.html
+ 1014  ls
+ 1015  git add .
+ 1016  git status
+ 1017  git commit -m "commit 01 de Jorge Alberto Canales"
+ 1018  git push 
+ 1019  git status
+ 1020  git push origin main
+ 1021  git status
+ 1022  git branch feature
+ 1023  mkdir Hardware
+ 1024  mkdir Software
+ 1025  mkdir SeguridadInformatica
+ 1026  cd Hardware
+ 1027  touch resumen.txt
+ 1028  cd ..
+ 1029  cd Software
+ 1030  touch resumen.txt
+ 1031  cd ..
+ 1032  cd SeguridadInformatica
+ 1033  touch resumen.txt
+ 1034  cd ..
+ 1035  git add .
+ 1036  git status
+ 1037  git commit -m "commit 02 de Jorge Alberto Canales"
+ 1038  git push origin feature
+ 1039  git status
+ 1040  git checkout feature
+ 1041  git checkout main
+ 1042  ls
+ 1043  rm Hardware
+ 1044  cd Hardware
+ 1045  ls
+ 1046  rm resumen.txt
+ 1047  ls
+ 1048  cd ..
+ 1049  rmdir Hardware
+ 1050  rmdir Software
+ 1051  rmdir SeguridadInformatica
+ 1052  cd Software
+ 1053  ls
+ 1054  rm resumen.txt
+ 1055  cd ..
+ 1056  cd SeguridadInformatica
+ 1057  ls
+ 1058  rm resumen.txt
+ 1059  cd..
+ 1060  cd ..
+ 1061  rmdir SeguridadInformatica
+ 1062  rmdir Software
+ 1063  ls
+ 1064  git status
+ 1065  git commit -m "commit 03 de Jorge Alberto Canales"
+ 1066  git add .
+ 1067  git commit -m "commit 03 de Jorge Alberto Canales"
+ 1068  git status
+ 1069  git branch -r
+ 1070  git checkout feature
+ 1071  git status 
+ 1072  mkdir Hadware
+ 1073  mkdir Software
+ 1074  mkdir SeguridadInformatica
+ 1075  ls
+ 1076  cd Hadware
+ 1077  touch resumen.txt
+ 1078  cd ..
+ 1079  cd Software
+ 1080  touch resumen.txt
+ 1081  cd ..
+ 1082  cd SeguridadInformatica
+ 1083  touch resumen.txt
+ 1084  cd ..
+ 1085  git status
+ 1086  cd Hadware
+ 1087  ls
+ 1088  cd ..
+ 1089  git add .
+ 1090  git status
+ 1091  git commit -m "commit 04 de Jorge Alberto Canales"
+ 1092  git push origin feature
+ 1093  git status
+ 1094  git checkout main
+ 1095  ls
+ 1096  rm main.js resumenHardware.txt
+ 1097  ls
+ 1098  touch main.js
+ 1099  ls
+ 1100  git status
+ 1101  mv main.js resumenHardware.txt
+ 1102  ls
+ 1103  mv index.html resumenSoftware.txt
+ 1104  ls
+ 1105  git status
+ 1106  touch comandos.txt
+ 1107  ls
+ 1108  git status
+ 1109  git history
+ 1110  history
+ 1111  history 50
